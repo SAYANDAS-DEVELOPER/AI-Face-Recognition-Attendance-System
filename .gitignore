@@ -59,7 +59,7 @@ attendance/
 # Dataset / Images
 # Keep folders but ignore image contents
 # =========================
-images_data/*
+images_datasets/*
 test_images/*
 test_group_images/*
 
