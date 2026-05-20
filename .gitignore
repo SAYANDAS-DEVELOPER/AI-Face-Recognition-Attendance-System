@@ -1,1 +1,86 @@
+# =========================
+# Python Cache / Compiled Files
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
 
+# =========================
+# Virtual Environment
+# =========================
+venv/
+env/
+ENV/
+.venv/
+
+# =========================
+# VS Code Settings
+# =========================
+.vscode/
+
+# =========================
+# Jupyter Notebook Checkpoints
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Environment Variables / Secrets
+# =========================
+.env
+*.env
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# System Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Attendance Output Files
+# (Generated automatically by project)
+# =========================
+attendance/
+*.csv
+
+# =========================
+# Model Files (Optional)
+# Uncomment if models are large
+# =========================
+# *.pkl
+# *.h5
+# *.pt
+
+# =========================
+# Dataset / Images
+# Keep folders but ignore image contents
+# =========================
+images_data/*
+test_images/*
+test_group_images/*
+
+# Keep folder structure
+!images_data/.gitkeep
+!test_images/.gitkeep
+!test_group_images/.gitkeep
+
+# =========================
+# Temporary Images / Screenshots
+# =========================
+Screenshot*.png
+group.jpg
+attendance_file.png
+
+# =========================
+# Excel Temporary Files
+# =========================
+~$*.xlsx
+
+# =========================
+# PDF Generated Files (Optional)
+# =========================
+# *.pdf
